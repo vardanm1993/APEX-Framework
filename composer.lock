@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "da9f0dc5067a9fd1d88812d2515edd71",
+    "packages": [
+        {
+            "name": "apex-php/core",
+            "version": "v0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vardanm1993/APEX-Core.git",
+                "reference": "b7d886879cdb0e9fbabdfe78900c425ca83f40eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vardanm1993/APEX-Core/zipball/b7d886879cdb0e9fbabdfe78900c425ca83f40eb",
+                "reference": "b7d886879cdb0e9fbabdfe78900c425ca83f40eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Apex\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vardan M.",
+                    "email": "vardanm1993@gmail.com",
+                    "homepage": "https://github.com/vardanm1993",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Core package of the Genesis PHP framework — a modern, lightweight foundation for building scalable applications.",
+            "support": {
+                "issues": "https://github.com/vardanm1993/APEX-Core/issues",
+                "source": "https://github.com/vardanm1993/APEX-Core/tree/v0.1.3"
+            },
+            "time": "2025-07-03T07:33:16+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

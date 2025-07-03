@@ -1,0 +1,5 @@
+{
+    "require": {
+        "apex-php/core": "^0.1.3"
+    }
+}
