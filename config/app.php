@@ -1,6 +1,5 @@
 <?php
 
-use Apex\Core\Providers\HttpServiceProvider;
 use App\Providers\ApexServiceProvider;
 
 return [
@@ -9,6 +8,5 @@ return [
 
     'providers' => [
         ApexServiceProvider::class,
-        HttpServiceProvider::class,
     ],
 ];

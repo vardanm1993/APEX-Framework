@@ -1,13 +1,21 @@
 <?php
 
+use Apex\Core\App\Bootstrap;
+use Apex\Core\Exception\Handler;
 use Apex\Core\Http\Request;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$app = require(__DIR__ . '/../bootstrap/app.php');
+$config = require __DIR__ . '/../config/app.php';
 
+$app = Bootstrap::boot($config);
 
-$request = $app->make(Request::class);
+try {
+    $request = $app->make(Request::class);
 
-echo "Method: " . $request->method() . "\n";
-echo "URI: " . $request->uri() . "\n";
+    echo "Method: " . $request->method() . "\n";
+    echo "URI: " . $request->uri() . "\n";
+} catch (Throwable $e) {
+    (new Handler())->handle($e);
+}
+
