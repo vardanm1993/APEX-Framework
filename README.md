@@ -1,4 +1,4 @@
-# Genesis PHP Framework
+# APEX PHP Framework
 
 **APEX** is a modern and lightweight PHP framework designed to be simple, fast, and developer-friendly.  
 It offers a clean foundation for building scalable web applications — powered by a modular core and service container architecture.
